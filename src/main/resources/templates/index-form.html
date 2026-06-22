@@ -1,5 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ITC583 Week 3 Git Biography</title>
+</head>
 <body>
-<p> Hello Spring Boot</p>
+    <h1>Name: <span th:text="${name}">Samuel Grills</span></h1>
+    <h2>Major: <span th:text="${major}">Cybersecurity</span></h2>
+    <h3>Server Local Time: <span th:text="${serverTime}">Time</span></h3>
 </body>
 </html>
