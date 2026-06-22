@@ -19,4 +19,6 @@ public class HomeController {
         model.addAttribute("major", "Cybersecurity");
         model.addAttribute("serverTime", serverTime);
 
-        return "index-form.html";
+        return "index-form";
+    }
+}
